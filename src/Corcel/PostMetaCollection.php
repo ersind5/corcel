@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Collection;
 
 class PostMetaCollection extends Collection
 {
+    protected $connection = 'wordpress';
     protected $changedKeys = array();
 
     /**

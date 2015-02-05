@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Model as Eloquent;
 
 class PostMeta extends Eloquent
 {
+    protected $connection = 'wordpress';
     protected $table = 'postmeta';
     protected $primaryKey = 'meta_id';
     public $timestamps = false;

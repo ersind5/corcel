@@ -4,4 +4,6 @@
  * 
  * @author Junior Grossi <juniorgro@gmail.com>
  */
-class Comment extends Corcel\Comment {}
+class Comment extends Corcel\Comment {
+	protected $connection = 'wordpress';
+}

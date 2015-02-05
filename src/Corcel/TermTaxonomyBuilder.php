@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class TermTaxonomyBuilder extends Builder
 {
+    protected $connection = 'wordpress';
     private $category_slug;
 
     public function posts()

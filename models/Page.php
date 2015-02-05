@@ -7,6 +7,7 @@
  */
 class Page extends Corcel\Post
 {
+	protected $connection = 'wordpress';
     /**
      * Used to set the post's type
      */

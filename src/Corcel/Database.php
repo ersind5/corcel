@@ -12,6 +12,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 
 class Database
 {
+    protected $connection = 'wordpress';
     /**
      * Base params. Wordpress use by default MySQL databases and more.
      */

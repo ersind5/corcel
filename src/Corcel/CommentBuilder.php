@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class CommentBuilder extends Builder
 {
+	protected $connection = 'wordpress';
     /**
      * Where clause for only approved comments
      * 

@@ -6,6 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class TermRelationship extends Model
 {
+    protected $connection = 'wordpress';
     protected $table = 'term_relationships';
     protected $primaryKey = array('object_id', 'term_taxonomy_id');
 

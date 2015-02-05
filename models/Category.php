@@ -7,6 +7,7 @@
  */
 class Category extends Corcel\TermTaxonomy
 {
+	protected $connection = 'wordpress';
     /**
      * Used to set the post's type
      */

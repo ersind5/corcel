@@ -14,6 +14,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 class Post extends Eloquent
 {
+    protected $connection = 'wordpress';
     const CREATED_AT = 'post_date';
     const UPDATED_AT = 'post_modified';
 

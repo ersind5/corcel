@@ -12,6 +12,7 @@ use Illuminate\Database\Eloquent\Builder;
 
 class PostBuilder extends Builder
 {
+    protected $connection = 'wordpress';
     /**
      * Get only posts with a custom status
      * 
